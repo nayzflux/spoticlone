@@ -2,7 +2,7 @@ import { getProviders, signIn } from 'next-auth/react'
 
 function Login({ providers }) {
     return (
-        <div className='flex flex-col items-center bg-black min-h-screen w-full justify-center'>
+        <div className='flex flex-col items-center bg-black min-h-screen w-full justify-center gap-6'>
             <img className='w-52 mb-5' src='https://links.papareact.com/9xl' alt='spotify logo'></img>
             <p className="text-white font-medium">This site is not the official Spotify Website, it's a clone to learn React & Netxt.</p>
             <a href="https://spotify.com" className="text-blue-600 hover:underline">You search the official site of Spotify? Click Here.</a>
